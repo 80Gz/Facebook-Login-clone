@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+body 
+{
+	margin: 0;
+    padding: 0;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Cabin', sans-serif;;
+    font-weight: 400;
+    size: 12px;
+    text-align: center;
+    color: #1877f2;
+}
+h3 {
+    font-weight: 100;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+.form-container {
+    text-align: center;
+    position: relative;
+    height: 189px 141px;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    border: #96999e;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.input-field {
+    border: 40px;
+    border-color: #96999e;
+    border-radius: 6px;
+    margin: 5px;
+}
+.input-field, .btn-log-in {
+    font-size: 12px;
+    width: 80%;
+    height: 30px;
+}
+.btn-log-in {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* line-height: 16.08px; */
+    width: 80%;
+    height: 30px;
+    cursor: pointer;
+
+}
+.btn-log-in p {
+    font-weight: 300;
+}
+.btn-create-new {
+    border: none;
+    background-color: #42b72a;
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+h6 {
+   width: 100px; 
+   text-align: center; 
+   border-bottom: 1px solid #96999e; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   color: #96999e;
+} 
+
+h6 span { 
+    background:#fff; 
+    padding:0 15px;
+}
+p a {
+    text-decoration: none;
+    color: #1877f2;
+}
+p a:hover {
+    text-decoration: underline;
+}
+p {
+    color: #96999e;
+}
