@@ -37,22 +37,23 @@ form {
     background: #ffffff;
 }
 .input-field {
-    border: 40px;
+    border: solid 1px;
     border-color: #96999e;
     border-radius: 6px;
     margin: 5px;
+    padding: 5px;
 }
 .input-field, .btn-log-in {
     font-size: 12px;
-    width: 80%;
+    width: 360px;
     height: 50px;
+    margin: 6px;
 }
 .btn-log-in {
     background-color: #1877f2;
     color: white;
     border: none;
     border-radius: 5px;
-    margin: 20px;
     cursor: pointer;
 
 }
