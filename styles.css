@@ -4,13 +4,16 @@ body
 {
 	margin: 0;
     padding: 0;
-    /* box-sizing: content-box; */
     box-sizing: border-box;
+}
+section {
+    background-color: #f0f2f5;
+    margin-top: -30px;
 }
 h1 {
     font-family: 'Cabin', sans-serif;;
-    font-weight: 400;
-    size: 12px;
+    font-weight: 600;
+    font-size: 35px;
     text-align: center;
     color: #1877f2;
 }
@@ -20,6 +23,7 @@ h3 {
 form {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .form-container {
     text-align: center;
@@ -30,6 +34,7 @@ form {
     border: #96999e;
     border-radius: 5px;
     margin-bottom: 40px;
+    background: #ffffff;
 }
 .input-field {
     border: 40px;
@@ -40,21 +45,16 @@ form {
 .input-field, .btn-log-in {
     font-size: 12px;
     width: 80%;
-    height: 30px;
+    height: 50px;
 }
 .btn-log-in {
     background-color: #1877f2;
     color: white;
     border: none;
     border-radius: 5px;
-    /* line-height: 16.08px; */
-    width: 80%;
-    height: 30px;
+    margin: 20px;
     cursor: pointer;
 
-}
-.btn-log-in p {
-    font-weight: 300;
 }
 .btn-create-new {
     border: none;
@@ -88,4 +88,11 @@ p a:hover {
 }
 p {
     color: #96999e;
+}
+.footer-links {
+    margin: 0 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
